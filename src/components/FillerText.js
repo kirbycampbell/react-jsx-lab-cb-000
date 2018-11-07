@@ -1,10 +1,11 @@
-class RegistrationForm extends Component {
+import React from 'react';
+
+export default class FillerText extends React.Component {
   render() {
     return (
-       <form></form>
-       <input type="text"></input>
-       <input type="password"></input>
-       <button type="submit"></button>
-     )
+      <p>
+        I am a filler text. I can be used to fill your screen. Amazing!
+      </p>
+    )
   }
 }
